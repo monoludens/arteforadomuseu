@@ -2466,6 +2466,29 @@ body.wysiwyg p {
 	}
 }
 
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.displaying-map #masthead,
+	#masthead {
+		#masthead-nav {
+			nav {
+				ul {
+					> li {
+						a {
+							padding: 10px 5px;
+						}
+					}
+				}
+			}
+		}
+		.user-meta {
+			.user-name {
+				display:none !important;
+			}
+		}
+	}
+}
+
 @media only screen and (min-height: 0) and (max-height: 650px) {
 	#masthead,
 	.displaying-map #masthead {
@@ -2489,28 +2512,6 @@ body.wysiwyg p {
 	.home .map-container,
 	.map-container {
 		top: @top/1.2;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	.displaying-map #masthead,
-	#masthead {
-		#masthead-nav {
-			nav {
-				ul {
-					> li {
-						a {
-							padding: 10px 5px;
-						}
-					}
-				}
-			}
-		}
-		.user-meta {
-			.user-name {
-				display:none !important;
-			}
-		}
 	}
 }
 
