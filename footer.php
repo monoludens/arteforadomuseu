@@ -1,6 +1,6 @@
 <footer id="colophon">
 	<div class="container">
-		<div class="three columns">
+		<div id="footer-nav" class="three columns">
 			<nav class="footer-nav">
 				<?php wp_nav_menu(array('theme_location' => 'footer_menu')); ?>
 			</nav>
