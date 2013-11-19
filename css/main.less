@@ -2490,6 +2490,11 @@ body.wysiwyg p {
 			}
 		}
 	}
+	#colophon{
+		#footer-nav{
+			width: 250px;
+		}
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -2497,6 +2502,15 @@ body.wysiwyg p {
 		height: 86px;
 		.footer-nav .menu li {
 		    margin: 0px 10px 0px 0px;
+		}
+	}
+}
+
+@media only screen and (max-width: 479px){
+	.displaying-map #masthead #masthead-nav, 
+	#masthead #masthead-nav{
+		#searchform{
+			display: none;
 		}
 	}
 }
@@ -2550,21 +2564,24 @@ body.wysiwyg p {
 	}
 	.displaying-map .map-container,
 	.displaying-map #content {
-		top: 150px;
+		top: 80px;
 		padding-top: 0;
 	}
 	.displaying-map #masthead,
 	#masthead {
-		height: 150px !important;
+		height: 80px !important;
 		&.scrolled {
-			height: 90px !important;
+			height: 80px !important;
 			overflow: hidden;
 			#searchform {
-				top: 120px;
+
 			}
 			#main-nav {
 				top: 90px !important;
 			}
+		}
+		.site-meta{
+			margin: 20px 0;
 		}
 		.city-selector {
 			position: absolute;
@@ -2572,10 +2589,10 @@ body.wysiwyg p {
 			margin: 0;
 		}
 		#site-meta{
-
+			
 		}
 		#city-selector{
-			
+
 		}
 		#nav{
 
@@ -2636,11 +2653,11 @@ body.wysiwyg p {
 				}
 			}
 			#searchform {
-				width: 50%;
+				width: 40%;
 				height: auto;
 				position: absolute;
-				top: 100px;
-				right: 0;
+				top: 25px;
+				right: 40px;
 				margin: 0;
 				> div {
 					width: auto;
@@ -2679,7 +2696,7 @@ body.wysiwyg p {
 	#nav-toggle {
 		display: block;
 		position: absolute;
-		top: 50px;
+		top: 30px;
 		color: #fff;
 		text-decoration: none;
 		font-size: 40px !important;
@@ -2688,7 +2705,7 @@ body.wysiwyg p {
 	}
 	.scrolled {
 		#nav-toggle {
-			top: 40px;
+			top: 30px;
 		}
 	}
 }
