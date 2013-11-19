@@ -191,7 +191,7 @@ class ArteForaDoMuseu_Geolocator {
 				<?php if($user_city) : ?>
 					<h2 class="city-title"><span class="lsf">&#xE03e;</span> <?php echo $user_city; ?></h2>
 				<?php else : ?>
-					<span class="city-title"><span class="lsf">&#xE03e;</span> <?php _e('Select a city', 'arteforadomuseu'); ?></span>
+					<span class="city-title"><span class="lsf">&#xE03e;</span> <span class="city-select"><?php _e('Select a city', 'arteforadomuseu'); ?></span><span class="lsf icon city-toggle">&#xE058;</span></span>
 				<?php endif; ?>
 				<ul class="city-list">
 					<?php if($user_city) : ?>

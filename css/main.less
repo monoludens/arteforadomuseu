@@ -290,6 +290,17 @@ input[type=submit] {
 			margin-right: 8px;
 			text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 		}
+		.city-toggle{
+			margin: 0;
+			padding: 12px 15px 12px 10px;
+			color: #f9f9f9;
+			text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+			cursor: default;
+			font-size: 200%;
+			z-index: 2;
+			position: relative;
+			display: none;
+		}
 		.city-list {
 			display: none;
 			.gradient(#f0f0f0, #ddd, #f0f0f0);
@@ -2483,10 +2494,36 @@ body.wysiwyg p {
 					}
 				}
 			}
+			.dropdown-title {
+				.icon-title{
+					display: none;
+				}
+			}
+		}
+		#site-meta{
+			width: 135px;
 		}
 		.user-meta {
 			.user-name {
 				display:none !important;
+			}
+		}
+		#city-selector{
+			width: 145px;
+			.city-selector{
+				.city-list{
+					width: 200px;
+				}
+				.city-title{
+					display: inline-block;
+					.city-select{
+						display: none;
+					}
+					.city-toggle{
+						display: inline;
+						padding: 12px 5px 12px 5px;
+					}
+				}
 			}
 		}
 	}
