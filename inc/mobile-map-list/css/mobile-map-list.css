@@ -16,7 +16,7 @@
 
 .mobile-map-list-selector {
 	position: fixed;
-	bottom: 60px;
+	bottom: 86px;
 	width: 100%;
 	display: table;
 	z-index: 999;
@@ -27,9 +27,9 @@
 	display: table-cell;
 	width: 1%;
 	text-align: center;
-	padding: 15px 0;
-	font-size: 24px;
-	line-height: 24px;
+	padding: 10px 0px;
+	font-size: 16px;
+	line-height: 20px;
 	text-transform: uppercase;
 	color: #f0f0f0;
 	text-decoration: none;
